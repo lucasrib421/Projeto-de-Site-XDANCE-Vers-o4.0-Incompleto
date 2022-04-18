@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    list-style: none;
+}
+
+:root{
+    --clr: #222327;
+    --white: #fff;
+    --black: #000;
+}
+
+body{
+    background: var(--clr);
+}
+
+main{
+    color: white;
+    background: var(--clr);
+}
+
+main #caixa{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+main #box{
+    background: black;
+    margin-top: 150px;
+}
+
+main #faixa{
+    background: black;
+    margin-top: 50px;
+}
